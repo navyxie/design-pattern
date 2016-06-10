@@ -27,3 +27,19 @@ function SingletonClosure() {
   _instance.name = 'singleton-pattern';
   return _instance;
 }
+
+//cache the instance in immediate execution function.
+
+var SingletonIEF；
+(function() {
+  var _instance;
+  SingletonIEF = function() {
+    if (_instance) {
+      return _instance;
+    }
+    _instance = this;
+
+    //do something
+    this.name = 'singleton-pattern';
+  }
+})();
