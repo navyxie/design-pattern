@@ -30,7 +30,7 @@ function SingletonClosure() {
 
 //cache the instance in immediate execution function.
 
-var SingletonIEF；
+var SingletonIEF;
 (function() {
   var _instance;
   SingletonIEF = function() {
