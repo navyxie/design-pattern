@@ -1,3 +1,5 @@
+//工厂模式
+
 function Factory() {}
 Factory.prototype.baseMethod = function () {
   return this.name + ' baseMethod.';

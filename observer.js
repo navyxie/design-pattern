@@ -1,3 +1,5 @@
+//观察者模式
+
 function isType(obj,type){
   return Object.prototype.toString.call(obj) === '[object '+ type +']'
 }

@@ -1,3 +1,5 @@
+//迭代器模式
+
 var interation = (function(){
   return function(list) {
     var index = 0, length = list.length;

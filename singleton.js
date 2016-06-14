@@ -1,3 +1,5 @@
+//单例模式
+
 //cache the instance in constructor static attribute.
 function Singleton() {
   if (Object.prototype.toString.call(Singleton._instance) === "[object Object]") {
